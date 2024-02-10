@@ -8,30 +8,41 @@
   </head>
   <body class="w-screen dark:text-white bg-amber-50 dark:bg-neutral-900 overflow-x-hidden">
     <main class="container mx-auto">
+      <!-- header fixe -->
+      <header class="flex w-full sticky top-4 justify-between items-center p-4">
+        <a href="">
+          <h1 class="font-semibold text-xl bg-blue-600 h-10 w-10 shadow-md shadow-blue-600 grid place-content-center rounded-full">L.</h1>
+        </a>
+        <div class="flex gap-10 w-max p-4 rounded-full bg-blue-500/20 border border-white/10  backdrop-blur-2xl items-center justify-center">
+          
+          <nav class="relative">
+            <ul class="flex gap-4 items-center">
+              <li class="absolute bg-blue-600/30 -ml-3 border border-white/20 backdrop-blur-2xl z-10 w-[4rem] rounded-full h-[2.5rem]"></li>
+              <li class="z-50"><a href="">Home</a></li>
+              <li class="z-50"><a href="">Work</a></li>
+              <li class="z-50"><a href="">Services</a></li>
+              <li class="z-50"><a href="">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
       <!-- hero section -->
       <section class="h-[100vh]  w-full ">
-        <header class="flex w-full sticky top-4 justify-between items-center p-4">
-          <a href="">
-            <h1 class="font-semibold text-xl bg-blue-600 h-10 w-10 shadow-md shadow-blue-600 grid place-content-center rounded-full">L.</h1>
-          </a>
-          <div class="flex gap-10 w-max p-4 rounded-full bg-blue-500/20 border border-white/10  backdrop-blur-2xl items-center justify-center">
-            
-            <nav class="relative">
-              <ul class="flex gap-4 items-center">
-                <li class="absolute bg-blue-600/30 -ml-3 border border-white/20 backdrop-blur-2xl z-10 w-[4rem] rounded-full h-[2.5rem]"></li>
-                <li class="z-50"><a href="">Home</a></li>
-                <li class="z-50"><a href="">Work</a></li>
-                <li class="z-50"><a href="">Services</a></li>
-                <li class="z-50"><a href="">contact</a></li>
-              </ul>
-            </nav>
+        
+        <section class="grid place-content-center h-max lg:h-[90vh]">
+          <div class="">
+            <h1 class="text-xl lg:text-4xl">Hello there, I'm</h1>
+            <h2 class="text-2xl lg:text-6xl">John Doe, A backend developer</h2>
           </div>
-        </header>
+        </section>
       </section>
 
       <!-- work section -->
-      <section class="h-[100vh]">
-        <h1>work</h1>
+      <section class="h-[100vh] container mx-auto">
+        <div class="flex items-center gap-2">
+          <p class="p-4 px-8 bg-blue-600/70 w-max rounded-full">My work</p>
+          <a href="" class="h-12 w-12 rounded-full bg-blue-600/70 grid place-content-center">></a>
+        </div>
       </section>
 
       <!-- service section -->
