@@ -13,11 +13,10 @@
         <a href="">
           <h1 class="font-semibold text-xl bg-blue-600 h-10 w-10 shadow-md shadow-blue-600 grid place-content-center rounded-full">L.</h1>
         </a>
-        <div class="flex gap-10 w-max p-4 rounded-full bg-blue-500/20 border border-white/10  backdrop-blur-2xl items-center justify-center">
+        <div class="flex gap-10 w-max p-4 rounded-full  items-center justify-center">
           
           <nav class="relative">
             <ul class="flex gap-4 items-center">
-              <li class="absolute bg-blue-600/30 -ml-3 border border-white/20 backdrop-blur-2xl z-10 w-[4rem] rounded-full h-[2.5rem]"></li>
               <li class="z-50"><a href="">Home</a></li>
               <li class="z-50"><a href="">Work</a></li>
               <li class="z-50"><a href="">Services</a></li>
@@ -29,19 +28,56 @@
       <!-- hero section -->
       <section class="h-[100vh]  w-full ">
         
-        <section class="grid place-content-center h-max lg:h-[90vh]">
-          <div class="">
-            <h1 class="text-xl lg:text-4xl">Hello there, I'm</h1>
-            <h2 class="text-2xl lg:text-6xl">John Doe, A backend developer</h2>
+        <section class="grid group place-content-center relative h-max lg:h-[90vh]">
+          
+          <div class="relative z-40">
+            <div class="">
+              <h1 class="text-xl lg:text-4xl">Hello there, I'm</h1>
+              <h2 class="text-2xl lg:text-8xl font-bold">John Doe</h2>
+              <h2 class="text-2xl lg:text-8xl font-semibold ">Backend developer</h2>
+            </div>
+            <p class="mt-5 lg:mt-8 lg:w-[50%]">
+              playing with code to develop high quality website with a highlight 
+              on Safety and tested code
+            </p>
+          </div>
+          
+          <div class="h-[65vh] lg:right-16 overflow-hidden lg:top-10 w-[30vw] z-50 mix-blend-difference absolute">
+            <img src="./public/img/like.jpg" class="h-full w-full object-cover group-hover:scale-110 duration-300 " alt="">
           </div>
         </section>
       </section>
 
       <!-- work section -->
-      <section class="h-[100vh] container mx-auto">
+      <section class="h-max container mx-auto">
         <div class="flex items-center gap-2">
-          <p class="p-4 px-8 bg-blue-600/70 w-max rounded-full">My work</p>
+          <p class="p-4 px-8 bg-blue-600/70 w-max rounded-full">Selected work</p>
           <a href="" class="h-12 w-12 rounded-full bg-blue-600/70 grid place-content-center">></a>
+        </div>
+
+        <div class=" mt-8 lg:mt-20 flex justify-center">
+          <div class="grid lg:w-[80%] lg:grid-cols-2 gap-6">
+            <div class="group">
+              <div class="h-[60vh] bg-blue-200 p-6 grid place-content-center overflow-hidden rounded-3xl">
+                <video src="./public/img/vid1.mp4" autoplay loop class="h-full w-full object-cover"></video>
+              </div>
+            </div>
+            <div class="relative lg:top-20">
+              <div class="h-[60vh] bg-blue-200 p-6 grid place-content-center overflow-hidden rounded-3xl">
+                <video src="./public/img/vid2.mp4" autoplay loop class="h-full w-full object-cover"></video>
+              </div>
+            </div>
+            <div class="group">
+              <div class="h-[60vh] bg-blue-200 p-6 grid place-content-center overflow-hidden rounded-3xl">
+                <video src="./public/img/vid1.mp4" autoplay loop class="h-full w-full object-cover"></video>
+              </div>
+            </div>
+            <div class="relative lg:top-20">
+              <div class="h-[60vh] bg-blue-200 p-6 grid place-content-center overflow-hidden rounded-3xl">
+                <video src="./public/img/vid2.mp4" autoplay loop class="h-full w-full object-cover"></video>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
